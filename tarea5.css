@@ -1,0 +1,23 @@
+body{
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Container1{
+    border: black 8px dashed;
+    width: 80%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 45px 45px 45px;
+    grid-gap: 45px 45px;
+    justify-content: center;
+    
+}
+.bt1{
+    grid-area: 2/1/2/2;
+}
+.bt2{
+    grid-area: 2/2/2/2;
+}
